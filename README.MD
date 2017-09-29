@@ -2,8 +2,11 @@ Initial repo for project。
 图片result1.png和result2.png是使用风格迁移学习的，右下角是风格图片。它们的原图是content_image.jpg
 
 图片Renoir.jpg+Renoir_sem.jpg+Landscape_sem.png生成了paper2_1.png
+
 另外(这是另一种迁移学习，只需要提供一个sketch就可以把原有风格迁移学习出来)：
+
     Gogh.jpg+Gogh_sem.png + Seth_sem.png生成了paper2_2.png
+    
     Seth.jpg+Seth_sem.png + Gogh_sem.png生成了paper2_3.png
 
 
