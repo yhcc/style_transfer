@@ -4,19 +4,16 @@
 >>* 原图![原图](https://github.com/yhcc/style_transfer/blob/master/images/content_image.jpg)
 >>* 星空版，风格图片在左下角![星空版](https://github.com/yhcc/style_transfer/blob/master/images/result1.png)
 >>* 尖叫版，风格图片在左下角![尖叫版](https://github.com/yhcc/style_transfer/blob/master/images/result2.png)
->* 第二篇paper，通过对原图使用一张scratch图片进行标注，然后再利用另一张scratch图片即可生成与原图风格类似但内容完全不同的图片。<br>
+>* 第二篇paper，方式一: 通过对原图使用一张scratch图片进行标注，然后再利用另一张scratch图片即可生成与原图风格类似但内容完全不同的图片。<br>
 >>* 原图<br>![Renoir](https://github.com/yhcc/style_transfer/blob/master/images/Renoir.jpg)
 >>* 原图scratch图片，与原图对应<br>![scratch1](https://github.com/yhcc/style_transfer/blob/master/images/Renoir_sem.png)
 >>* 目标scratch图片, 用户自己提供的<br>![scratch2](https://github.com/yhcc/style_transfer/blob/master/images/Landscape_sem.png)
 >>* 生成图片<br>![生成图片](https://github.com/yhcc/style_transfer/blob/master/images/paper2_1.png)
-
+>* 第二篇paper，方式二: 通过同时使用四张图片，即图1、图1的scratch以及图2、图2的scratch，最终可以生成的结果为图1、图2的风格互换，内容不变。<br>
+>>* 图1<br>![Seth](https://github.com/yhcc/style_transfer/blob/master/images/Seth.jpg) 图1scratch, 与原图对应<br>![scratch1](https://github.com/yhcc/style_transfer/blob/master/images/Seth_sem.png)
+>>* 目标scratch图片
 图片Renoir.jpg+Renoir_sem.jpg+Landscape_sem.png生成了paper2_1.png
 
-另外(这是另一种迁移学习，只需要提供一个sketch就可以把原有风格迁移学习出来)：
-
-    Gogh.jpg+Gogh_sem.png + Seth_sem.png生成了paper2_2.png
-    
-    Seth.jpg+Seth_sem.png + Gogh_sem.png生成了paper2_3.png
 
 
 
