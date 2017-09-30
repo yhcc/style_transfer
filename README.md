@@ -1,11 +1,14 @@
-图片风格迁移学习项目
-===
-该项目基于paper[A Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576)以及paper[Semantic Style Transfer and Turning Two-Bit Doodles into Fine Artworks](https://arxiv.org/abs/1603.01768)。<br>
+# 图片风格迁移学习项目
+该项目基于paper [A Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576)以及paper [Semantic Style Transfer and Turning Two-Bit Doodles into Fine Artworks](https://arxiv.org/abs/1603.01768)。<br>
 >* 第一篇paper，能够将一张内容图片和一张风格图片混搭到一起，产生出非常有艺术感的图片；<br>
+>>* 原图![原图](https://github.com/yhcc/style_transfer/blob/master/images/content_image.jpg)
+>>* 星空版，风格图片在左下角![星空版](https://github.com/yhcc/style_transfer/blob/master/images/result1.png)
+>>* 尖叫版，风格图片在左下角![尖叫版](https://github.com/yhcc/style_transfer/blob/master/images/result2.png)
 >* 第二篇paper，通过对原图使用一张scratch图片进行标注，然后再利用另一张scratch图片即可生成与原图风格类似但内容完全不同的图片。<br>
-
-
-图片result1.png和result2.png是使用风格迁移学习的，右下角是风格图片。它们的原图是content_image.jpg
+>>* 原图<br>![Renoir](https://github.com/yhcc/style_transfer/blob/master/images/Renoir.jpg)
+>>* 原图scratch图片，与原图对应<br>![scratch1](https://github.com/yhcc/style_transfer/blob/master/images/Renoir_sem.png)
+>>* 目标scratch图片, 用户自己提供的<br>![scratch2](https://github.com/yhcc/style_transfer/blob/master/images/Landscape_sem.png)
+>>* 生成图片<br>![生成图片](https://github.com/yhcc/style_transfer/blob/master/images/paper2_1.png)
 
 图片Renoir.jpg+Renoir_sem.jpg+Landscape_sem.png生成了paper2_1.png
 
