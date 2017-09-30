@@ -1,4 +1,4 @@
-Initial repo for project。
+##图片风格迁移学习项目\<br>
 图片result1.png和result2.png是使用风格迁移学习的，右下角是风格图片。它们的原图是content_image.jpg
 
 图片Renoir.jpg+Renoir_sem.jpg+Landscape_sem.png生成了paper2_1.png
