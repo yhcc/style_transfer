@@ -1,6 +1,10 @@
 图片风格迁移学习项目
 ===
-该项目基于文章
+该项目基于paper[A Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576)以及paper[Semantic Style Transfer and Turning Two-Bit Doodles into Fine Artworks](https://arxiv.org/abs/1603.01768)。<br>
+>* 第一篇paper，能够将一张内容图片和一张风格图片混搭到一起，产生出非常有艺术感的图片；<br>
+>* 第二篇paper，通过对原图使用一张scratch图片进行标注，然后再利用另一张scratch图片即可生成与原图风格类似但内容完全不同的图片。<br>
+
+
 图片result1.png和result2.png是使用风格迁移学习的，右下角是风格图片。它们的原图是content_image.jpg
 
 图片Renoir.jpg+Renoir_sem.jpg+Landscape_sem.png生成了paper2_1.png
