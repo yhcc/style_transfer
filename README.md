@@ -4,7 +4,7 @@
 >>* 效果![style_transfer_git.png](https://github.com/yhcc/style_transfer/blob/master/images/style_transfer_git.png)
 >* 第二篇paper，image analogy: 通过对原图使用一张scratch图片进行标注，然后再利用另一张scratch图片即可生成与原图风格类似但内容完全不同的图片。<br>
 >>* 效果![paper2_1_git](https://github.com/yhcc/style_transfer/blob/master/images/paper2_1_git.png)
->* 第二篇paper，style transfer: 通过同时使用四张图片，最终可以生成的结果为，内容不变。<br>
+>* 第二篇paper，style transfer: 通过同时使用四张图片，最终可以生成的结果为风格迁移、内容不变。<br>
 >>* 效果![paper2_2_git](https://github.com/yhcc/style_transfer/blob/master/images/paper2_2_git.png)  
 
 第一篇文章对应的代码在project.ipynb中  
@@ -17,8 +17,7 @@
 
 # 说明  
 
-该项目是使用theano写成的，当前theano的更新相对cuda、cudnn比较滞后，可能出现无法正常运行的情况。正在重写一个pytorch版本的。现有的实现在效率上也不太好，之后的pytorch版本应该会有改善。
-
+该项目是使用Theano写成的，当前Theano相对cuda、cudnn比较滞后，可能出现无法正常运行的情况。正在重写一个pytorch版本的。现有的实现在效率上比较差，之后的pytorch版本应该会有改善。
 
 # 下载vgg19.h5
 https://gist.github.com/baraldilorenzo/8d096f48a1be4a2d660d
