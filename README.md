@@ -7,16 +7,13 @@
 >* 第二篇paper，style transfer: 通过同时使用四张图片，最终可以生成的结果为风格迁移、内容不变。<br>
 >>* 效果![paper2_2_git](https://github.com/yhcc/style_transfer/blob/master/images/paper2_2_git.png)  
 
-第一篇文章对应的代码在project.ipynb中  
+第一篇文章对应的代码在project.ipynb中  
+内容图片在cell 5中加载，风格图片在cell 7中加载，修改对应路径即可使用不同的内容、风格图片。cell 73中alpha是多大程度上还原内容，beta是多大程度上还原风格。
 
-内容图片在cell 5中加载，风格图片在cell 7中加载，修改对应路径即可使用不同的内容、风格图片。cell 73中是alpha是多大程度上还原内容，beta是多大程度上还原风格。
-
-第二篇文章对应的代码在extra.ipynb中  
-
+第二篇文章对应的代码在extra.ipynb中  
 图片加载在cell 96中。如果是image analogy，content image则使用一张noise照片即可，另外将cell 185中的beta设置为0。
 
 # 说明  
-
 该项目是使用Theano写成的，当前Theano相对cuda、cudnn比较滞后，可能出现无法正常运行的情况。正在重写一个pytorch版本的。现有的实现在效率上比较差，之后的pytorch版本应该会有改善。
 
 # 下载vgg19.h5
